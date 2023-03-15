@@ -16,6 +16,8 @@ export type TextRequest = string;
 
 export interface NotionToMarkdownOptions {
   notionClient: Client;
+  staticFileDir?: string;
+  staticFileDirCustomPath?: string;
 }
 
 export type MdBlock = {
